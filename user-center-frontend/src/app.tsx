@@ -12,6 +12,8 @@ const isDev = process.env.NODE_ENV === 'development';
 const loginPath = '/user/login';
 
 /**
+ * 整个项目的初始化
+ *
  * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
  * */
 export async function getInitialState(): Promise<{
